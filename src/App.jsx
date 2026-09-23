@@ -20,22 +20,22 @@ const categorySubtypes = {
 };
 
 const products = [
-  { id: 1, name: 'Aurora Lamp', category: 'Home', subcategory: 'Lighting', brand: 'Luma', price: 189, color: 'Warm white', rating: 4.8, image: categoryImageMap.Home },
-  { id: 2, name: 'Flow Bottle', category: 'Outdoors', subcategory: 'Travel', brand: 'North', price: 42, color: 'Forest', rating: 4.6, image: categoryImageMap.Outdoors },
-  { id: 3, name: 'Summit Chair', category: 'Furniture', subcategory: 'Seating', brand: 'Oak & Co.', price: 320, color: 'Oak', rating: 4.9, image: categoryImageMap.Furniture },
-  { id: 4, name: 'Pulse Headphones', category: 'Electronics', subcategory: 'Audio', brand: 'Echo', price: 260, color: 'Graphite', rating: 4.7, image: categoryImageMap.Electronics },
-  { id: 5, name: 'Harbor Throw', category: 'Home', subcategory: 'Decor', brand: 'North', price: 76, color: 'Sand', rating: 4.5, image: categoryImageMap.Home },
-  { id: 6, name: 'Solstice Backpack', category: 'Outdoors', subcategory: 'Hiking', brand: 'Terra', price: 138, color: 'Slate', rating: 4.6, image: categoryImageMap.Outdoors },
-  { id: 7, name: 'Vista Monitor', category: 'Electronics', subcategory: 'Visual', brand: 'Luma', price: 482, color: 'Black', rating: 4.8, image: categoryImageMap.Electronics },
+  { id: 1, name: 'Aurora Lamp', category: 'Home', subcategory: 'Lighting', brand: 'Luma', price: 189, color: 'Warm white', rating: 4.8, image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80' },
+  { id: 2, name: 'Flow Bottle', category: 'Outdoors', subcategory: 'Travel', brand: 'North', price: 42, color: 'Forest', rating: 4.6, image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=80' },
+  { id: 3, name: 'Summit Chair', category: 'Furniture', subcategory: 'Seating', brand: 'Oak & Co.', price: 320, color: 'Oak', rating: 4.9, image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=900&q=80' },
+  { id: 4, name: 'Pulse Headphones', category: 'Electronics', subcategory: 'Audio', brand: 'Echo', price: 260, color: 'Graphite', rating: 4.7, image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80' },
+  { id: 5, name: 'Harbor Throw', category: 'Home', subcategory: 'Decor', brand: 'North', price: 76, color: 'Sand', rating: 4.5, image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=900&q=80' },
+  { id: 6, name: 'Solstice Backpack', category: 'Outdoors', subcategory: 'Hiking', brand: 'Terra', price: 138, color: 'Slate', rating: 4.6, image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80' },
+  { id: 7, name: 'Vista Monitor', category: 'Electronics', subcategory: 'Visual', brand: 'Luma', price: 482, color: 'Black', rating: 4.8, image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80' },
   { id: 8, name: 'Drift Desk', category: 'Furniture', subcategory: 'Desk', brand: 'Oak & Co.', price: 540, color: 'Walnut', rating: 4.9, image: categoryImageMap.Furniture },
-  { id: 9, name: 'Cloud Speaker', category: 'Electronics', subcategory: 'Audio', brand: 'Echo', price: 180, color: 'White', rating: 4.4, image: categoryImageMap.Electronics },
-  { id: 10, name: 'Ridge Hoodie', category: 'Apparel', subcategory: 'Outerwear', brand: 'Terra', price: 96, color: 'Stone', rating: 4.7, image: categoryImageMap.Apparel },
-  { id: 11, name: 'Breeze Mat', category: 'Home', subcategory: 'Decor', brand: 'Aster', price: 58, color: 'Ivory', rating: 4.3, image: categoryImageMap.Home },
-  { id: 12, name: 'Summit Trek', category: 'Outdoors', subcategory: 'Hiking', brand: 'Terra', price: 210, color: 'Copper', rating: 4.8, image: categoryImageMap.Outdoors },
-  { id: 13, name: 'Nomad Stool', category: 'Furniture', subcategory: 'Seating', brand: 'Aster', price: 154, color: 'Terracotta', rating: 4.5, image: categoryImageMap.Furniture },
+  { id: 9, name: 'Cloud Speaker', category: 'Electronics', subcategory: 'Audio', brand: 'Echo', price: 180, color: 'White', rating: 4.4, image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=900&q=80' },
+  { id: 10, name: 'Ridge Hoodie', category: 'Apparel', subcategory: 'Outerwear', brand: 'Terra', price: 96, color: 'Stone', rating: 4.7, image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=80' },
+  { id: 11, name: 'Breeze Mat', category: 'Home', subcategory: 'Decor', brand: 'Aster', price: 58, color: 'Ivory', rating: 4.3, image: 'https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&fit=crop&w=900&q=80' },
+  { id: 12, name: 'Summit Trek', category: 'Outdoors', subcategory: 'Hiking', brand: 'Terra', price: 210, color: 'Copper', rating: 4.8, image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80' },
+  { id: 13, name: 'Nomad Stool', category: 'Furniture', subcategory: 'Seating', brand: 'Aster', price: 154, color: 'Terracotta', rating: 4.5, image: 'https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=900&q=80' },
   { id: 14, name: 'Mira Watch', category: 'Accessories', subcategory: 'Wearables', brand: 'Luma', price: 240, color: 'Silver', rating: 4.7, image: categoryImageMap.Accessories },
-  { id: 15, name: 'Dune Mug', category: 'Home', subcategory: 'Kitchen', brand: 'Aster', price: 26, color: 'Clay', rating: 4.4, image: categoryImageMap.Home },
-  { id: 16, name: 'Element Tee', category: 'Apparel', subcategory: 'Basics', brand: 'North', price: 44, color: 'Midnight', rating: 4.6, image: categoryImageMap.Apparel },
+  { id: 15, name: 'Dune Mug', category: 'Home', subcategory: 'Kitchen', brand: 'Aster', price: 26, color: 'Clay', rating: 4.4, image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=80' },
+  { id: 16, name: 'Element Tee', category: 'Apparel', subcategory: 'Basics', brand: 'North', price: 44, color: 'Midnight', rating: 4.6, image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80' },
 ];
 
 const categoryOptions = ['All', 'Home', 'Furniture', 'Electronics', 'Outdoors', 'Apparel', 'Accessories'];
@@ -69,6 +69,7 @@ function App() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [cartCount, setCartCount] = useState(0);
   const [addedProductIds, setAddedProductIds] = useState({});
+  const [isCartOpen, setIsCartOpen] = useState(false);
   const drawerRef = useRef(null);
   const firstFilterButtonRef = useRef(null);
   const renderCountRef = useRef(0);
@@ -79,7 +80,7 @@ function App() {
   const selectedBrand = getInitialParamValue(searchParams, 'brand', 'All');
   const selectedPrice = Number(getInitialParamValue(searchParams, 'price', '500')) || 500;
   const selectedSort = getInitialParamValue(searchParams, 'sort', 'featured');
-  const currentPage = clampPage(Number(getInitialParamValue(searchParams, 'page', '1')), 1);
+  const currentPage = Math.max(Number(getInitialParamValue(searchParams, 'page', '1')) || 1, 1);
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
 
   const updateSearchParam = useCallback(
@@ -113,10 +114,9 @@ function App() {
   const handleSearchChange = useCallback(
     (event) => {
       const nextValue = event.target.value;
-      updateSearchParam('q', nextValue);
-      updateSearchParams({ page: 1 });
+      updateSearchParams({ q: nextValue, page: 1 });
     },
-    [updateSearchParam, updateSearchParams],
+    [updateSearchParams],
   );
 
   const resetFilters = useCallback(() => {
@@ -161,7 +161,9 @@ function App() {
         query === '' ||
         product.name.toLowerCase().includes(query) ||
         product.category.toLowerCase().includes(query) ||
-        product.brand.toLowerCase().includes(query);
+        product.brand.toLowerCase().includes(query) ||
+        product.color.toLowerCase().includes(query) ||
+        product.subcategory.toLowerCase().includes(query);
 
       const matchesCategory = selectedCategory === 'All' || product.category === selectedCategory;
       const matchesSubcategory =
@@ -221,6 +223,10 @@ function App() {
 
   const resultsSummary = filteredProducts.length === 1 ? '1 result' : `${filteredProducts.length} results`;
   const activeSubcategories = selectedCategory === 'All' ? [] : categorySubtypes[selectedCategory] || ['All'];
+  const cartProducts = useMemo(
+    () => products.filter((product) => addedProductIds[product.id]),
+    [addedProductIds],
+  );
 
   const handleAddToCart = useCallback((productId) => {
     setAddedProductIds((current) => {
@@ -244,7 +250,14 @@ function App() {
         </div>
 
         <div className="topbar-actions">
-          <button type="button" className="cart-badge" aria-live="polite">
+          <button
+            type="button"
+            className="cart-badge"
+            aria-live="polite"
+            aria-expanded={isCartOpen}
+            aria-controls="cart-drawer"
+            onClick={() => setIsCartOpen(true)}
+          >
             Cart <span>{cartCount}</span>
           </button>
           <label className="search-box" htmlFor="product-search">
@@ -422,6 +435,56 @@ function App() {
           )}
         </section>
       </main>
+
+      {isCartOpen && (
+        <div className="cart-overlay" onClick={() => setIsCartOpen(false)}>
+          <aside
+            id="cart-drawer"
+            className="cart-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="cart-title"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="panel-header">
+              <div>
+                <p className="eyebrow">Your selection</p>
+                <h2 id="cart-title">Cart ({cartCount})</h2>
+              </div>
+              <button type="button" className="close-button" onClick={() => setIsCartOpen(false)} aria-label="Close cart">
+                ×
+              </button>
+            </div>
+
+            {cartProducts.length > 0 ? (
+              <div className="cart-items">
+                {cartProducts.map((product) => (
+                  <div className="cart-item" key={product.id}>
+                    <img src={product.image} alt="" />
+                    <div className="cart-item-details">
+                      <strong>{product.name}</strong>
+                      <span>{numberFormatter.format(product.price)}</span>
+                    </div>
+                    <button
+                      type="button"
+                      className="remove-cart-button"
+                      onClick={() => handleAddToCart(product.id)}
+                      aria-label={`Remove ${product.name} from cart`}
+                    >
+                      Remove
+                    </button>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="cart-empty">
+                <p>Your cart is empty.</p>
+                <span>Add a product to see it here.</span>
+              </div>
+            )}
+          </aside>
+        </div>
+      )}
 
       {isFiltersOpen && (
         <div className="drawer-overlay" onClick={() => setIsFiltersOpen(false)}>
