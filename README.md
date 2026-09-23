@@ -1,6 +1,6 @@
 # FilterMart 🛒
 
-**FilterMart** is a high-performance, interactive e-commerce and product discovery interface built with **React** and **Vite**. The application highlights real-time multi-faceted filtering, instant URL-based state sync for shareable search results, custom UI styling, and dynamic routing.
+**FilterMart** is a high-performance, interactive e-commerce and product discovery interface built with **React** and **Vite**. The application is built to demonstrate skills in react, highlighting real-time multi-faceted filtering, instant URL-based state sync for shareable search results, custom UI styling, and dynamic routing.
 
 ---
 
